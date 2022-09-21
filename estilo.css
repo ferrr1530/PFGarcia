@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 1rem;
+}
+nav{
+    padding: 1rem;
+}
+.menu{
+    list-style: none;
+    margin: 10px;
+    background-color: black;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background-color: yellow;
+    padding: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: white;
+}
+.menu li:hover{
+    background-color: tomato;
+}
+.menu li a:hover{
+    background-color: turquoise;
+}
+body{
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:  url(./img/fondo6.jpg);
+    margin: 10px;
+}
+img{
+    margin: 5px 10px 10px 40px;
+    
+}
+.intro{
+      /*propiedades decorativas*/
+      color:rgb(216, 36, 36);
+      border: outset;
+      text-align: center;
+      font-family: 'Archivo Black', sans-serif;
+      line-height: 2rem;
+      /*tamaño de texto*/
+      width: 400px;
+      /*margen de separación del parrafo*/
+      margin: 10px;
+}
+footer{
+    background-color: black;
+    height: 80px;
+}
