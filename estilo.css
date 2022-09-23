@@ -36,12 +36,25 @@ body{
     background-color: aqua;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image:  url(./img/fondo6.jpg);
+    background-image: url(./img/fondo6.jpg);
     margin: 10px;
 }
 img{
     margin: 5px 10px 10px 40px;
-    
+        
+ }
+img:hover{
+    transform: skew(20deg,10deg);
+}
+.argentina{
+    width: 300px;
+    height: 400px;
+    transition: height 2s;
+
+}
+.argentina:hover{
+    height: 200px;
+    transform: scale(2,1);
 }
 .intro{
       /*propiedades decorativas*/
@@ -53,9 +66,40 @@ img{
       /*tamaño de texto*/
       width: 400px;
       /*margen de separación del parrafo*/
-      margin: 10px;
+      animation-duration: 10s;
+      animation-name: aparecer;
+      animation-iteration-count: infinite;
 }
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ } 
 footer{
     background-color: black;
     height: 80px;
+    margin: 10px;
+    flex-direction: column
+}
+@media screen and (min-width: 768px){
+    body {
+        background-color: brown;
+        background-image: url(../img/mundial\ 2022\ fondo.jpeg);
+}
+@media screen and (min-width: 1024px){
+    body {
+        background-color: aquamarine;
+        background-image: url(../img/fondo6.jpg);
+}
+@media screen and (max-width:768px) {.contenedor{
+    width: 100%;
+    grid-template-columns:1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:"header""main""aside""footer";
+}
+@media screen and (max-width:420px) {.header{
+    flex-direction: column;
 }

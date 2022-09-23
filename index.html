@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
         </style>
@@ -18,13 +20,53 @@
         Mundial de Qatar 2022
         </h1>
         <nav>
-            <ul class="menu" id="Presentación">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./zonadegrupos.html">Zona de grupos</a></li>
-                <li><a href="./formulario.html">Formulario de sorteo</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Mundial de Qatar 2022</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Busquedas rápidas</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://github.com/ferrr1530/PreEntrega2Garcia">Proyectos Personales</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Intereses
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Selecciones</a></li>
+                            <li><a class="dropdown-item" href="#">Jugadores</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+          </nav>
+              <ul class="menu" id="Presentación">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./zonadegrupos.html">Zona de grupos</a></li>
+                  <li><a href="./formulario.html">Formulario de sorteo</a></li>
+                  <li><a href="./contacto.html">Contacto</a></li>
+              </ul>
+          </nav>
     <hr>
     <main>
         <img src="./img/futbol mundial 2022.jfif" alt="Mundial de futbol" width="400px" height="400px">
@@ -39,6 +81,9 @@
     
         Igualmente será el Mundial de mayor tiempo de espera desde 1950 respecto a su edición anterior, ya que se desarrollará entre los meses de noviembre y diciembre de 2022, a diferencia de los meses habituales de junio y julio. De forma paralela será la Copa más corta desde 1978, pues durará solamente veintinueve días a diferencia de los treinta y dos habituales en los últimos campeonatos.
     </p>
+    <section class="argentina">
+        <img src="./img/argentina.jfif" alt="Argentina">
+    </section>
     <section>
         <audio src="./img/Hayya Hayya (Better Together)  FIFA World Cup 2022™ Official Soundtrack (BUENTEMA.APP).mp3" controls></audio>
     </section>
@@ -60,5 +105,7 @@
       </em>
     </h4>
 </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
