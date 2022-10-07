@@ -1,0 +1,24 @@
+$amarillo: rgb(227, 252, 0);
+$negro: rgba(0, 0, 0, 0.911);
+$celeste: rgba(0, 248, 248, 0.952);
+footer{
+    h4{
+        background-color: black;
+        height: 80px;
+        margin: 10px;
+        flex-direction: column;
+    }
+    a:hover{ 
+        font-weight:bold; 
+        background-color:blue; 
+        color:white; 
+        text-decoration:brown; 
+    }
+    a:link{ 
+        text-decoration:none; 
+        color:red; 
+    }
+    .final:active{ 
+        background-color:$amarillo; color: $negro ; 
+    }
+}

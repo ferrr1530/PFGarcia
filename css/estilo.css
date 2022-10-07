@@ -1,0 +1,117 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+nav {
+  padding: 1rem; }
+
+nav {
+  padding: 1rem; }
+
+.menu {
+  list-style: none;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.911); }
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  background-color: #e3fc00;
+  padding: 20px; }
+
+.menu li a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: white; }
+
+.menu li:hover {
+  background-color: tomato; }
+
+.menu li a:hover {
+  background-color: rgba(0, 248, 248, 0.952); }
+
+body {
+  background-color: rgba(0, 248, 248, 0.952);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/fondo6.jpg");
+  margin: 10px; }
+
+img {
+  margin: 5px 10px 10px 40px; }
+
+img:hover {
+  transform: skew(20deg, 10deg); }
+
+.argentina {
+  width: 300px;
+  height: 400px;
+  transition: height 2s; }
+
+.argentina:hover {
+  height: 200px;
+  transform: scale(2, 1); }
+
+.intro {
+  /*propiedades decorativas*/
+  color: #d82424;
+  border: outset;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  line-height: 2rem;
+  /*tamaño de texto*/
+  width: 400px;
+  /*margen de separación del parrafo*/
+  animation-duration: 10s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+footer h4 {
+  background-color: black;
+  height: 80px;
+  margin: 10px;
+  flex-direction: column; }
+
+footer a:hover {
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  text-decoration: brown; }
+
+footer a:link {
+  text-decoration: none;
+  color: red; }
+
+footer .final:active {
+  background-color: #e3fc00;
+  color: rgba(0, 0, 0, 0.911); }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: brown;
+    background-image: url("../img/mundial 2022 fondo.jpeg"); } }
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: rgba(0, 248, 248, 0.952);
+    background-image: url("../img/fondo6.jpg"); } }
+
+@media screen and (max-width: 768px) {
+  .conteiner {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "header" "main" "aside" "footer"; } }
+
+@media screen and (max-width: 420px) {
+  .header {
+    flex-direction: column-reverse; } }

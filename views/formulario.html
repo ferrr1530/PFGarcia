@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+        </style>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="./img/logo qatar.jfif" type="application/rss+xml" title="RSS">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Mundial de Qatar 2022
+         </h1>
+        <nav>
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Mundial de Qatar 2022</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Busquedas rápidas</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://github.com/ferrr1530/PreEntrega2Garcia">Proyectos Personales</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Intereses
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Selecciones</a></li>
+                            <li><a class="dropdown-item" href="#">Jugadores</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+          </nav>
+              <ul class="menu" id="Presentación">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./zonaDeGrupos.html">Zona de grupos</a></li>
+                <li><a href="./formulario.html">Formulario de sorteo</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+              </ul>
+          </nav>
+  </header>
+<hr>
+<main>
+    <form action=""></form>
+    <fieldset>
+        <legend>Formulario para el sorteo</legend>
+        <div>
+            <label for="name"></label>Escribe tu seleccion favorita
+            <input type="text" placeholder="Argentina"> 
+        </div>
+        <br>
+        <div>
+            <label for="apellido"></label>Escribe tu jugador favorito
+            <input type="text" placeholder="Lionel Messi"> 
+        </div>
+        <br>
+        <div>
+            <label for="email">Escribe tu email *</label>
+            <input type="email" name="Email" required>
+        </div>
+        <br>
+        <div>
+            <label for="sexo">Elige tu género</label>
+            <input type="radio" name="sexo" value="Masculino">Hombre
+            <input type="radio" name="sexo" value="Femenino">Mujer
+            <input type="radio" name="sexo" value="Otro">No binario
+        </div>
+        <br>
+        <div>
+            <label for="comentario">Escribe que harias si ganaras el premio</label>
+            <br>
+            <textarea name="Comentarios" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="terminos">Acepta términos y condiciones</label></div>
+            <input type="checkbox" name="terminos" id="1">
+            <br>
+        <div>
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Borrar datos">
+        </div>
+    </fieldset>     
+</main>
+<hr>
+<footer>
+    <h4 class="final">
+           <a href="https://www.google.com/search?q=Noticias+sobre+el+mundial+de+Qatar+2022&rlz=1C1VDKB_esAR1000AR1000&biw=1366&bih=625&tbm=nws&sxsrf=ALiCzsY9sIqhjrIuKwskuE-QYqwakxqBLg%3A1661993431819&ei=1wEQY922MePL1sQPpcuo-AY&ved=0ahUKEwid_vyAsPL5AhXjpZUCHaUlCm8Q4dUDCA4&uact=5&oq=Noticias+sobre+el+mundial+de+Qatar+2022&gs_lcp=Cgxnd3Mtd2l6LW5ld3MQAzIFCAAQxAI6BQgAEIAEOgYIABAeEAg6BggAEB4QBzoECAAQDVDmC1i2MmCDN2gAcAB4AIABbYgBrAeSAQQxMC4xmAEAoAEBwAEB&sclient=gws-wiz-news" target="_blank">Noticias</a>
+          <em>
+            <a href="https://hospitality.fifa.com/2022/es/the-stadiums/" target="_blank">Estadios</a>
+          </em>
+    </h4>
+</footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
