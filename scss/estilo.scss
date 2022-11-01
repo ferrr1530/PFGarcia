@@ -9,9 +9,6 @@ $celeste: rgba(0, 248, 248, 0.952);
 nav{
     padding: 1rem;
 }
-nav{
-    padding: 1rem;
-}
 .menu{
     list-style: none;
     margin: 10px;
@@ -43,21 +40,27 @@ body{
     margin: 10px;
 }
 img{
-    margin: 5px 10px 10px 40px;
-        
+    margin: 5px 10px 10px 40px;  
  }
 img:hover{
     transform: skew(20deg,10deg);
 }
-.argentina{
-    width: 300px;
-    height: 400px;
-    transition: height 2s;
-
+.banderas{
+    width: 45px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
 }
-.argentina:hover{
-    height: 200px;
-    transform: scale(2,1);
+.fichaTecnica{
+    width: 850px;
+    height: 100px;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Cabin Condensed', sans-serif;
+    background-color: yellow;
+    color: black;
+}
+.premios{
+    display: flex;
 }
 .intro{
       /*propiedades decorativas*/
@@ -73,6 +76,35 @@ img:hover{
       animation-name: aparecer;
       animation-iteration-count: infinite;
 }
+h2{
+    font-family: 14px;
+    color: green;
+}
+h3{
+    font-family: 14px;
+    color: green;
+}
+.argentina{
+    width: 300px;
+    height: 400px;
+    transition: height 2s;
+}
+.argentina:hover{
+    height: 200px;
+    transform: scale(2,1);
+}
+.musica{
+    margin: 40px;
+}
+.entretenimiento{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+.redes{
+    display:flex;
+    flex-direction: row-reverse;
+}
 @keyframes aparecer {
     0% {
       opacity: 0;
@@ -85,7 +117,6 @@ img:hover{
 @media screen and (min-width: 768px){
     body {
         background-color: brown;
-        background-image: url("../img/mundial\ 2022\ fondo.jpeg");
         }
 }
 @media screen and (min-width: 1024px){
