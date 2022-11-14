@@ -32,6 +32,13 @@ nav{
 .menu li a:hover{
     background-color: $celeste;
 }
+.title{
+    margin: 30px;
+    padding: 30px;
+    background-color: aqua;
+    text-align: center;
+    color: aliceblue;
+}
 body{
     background-color: $celeste;
     background-repeat: no-repeat;
@@ -82,7 +89,7 @@ h2{
 }
 h3{
     font-family: 14px;
-    color: green;
+    color: violet;
 }
 .argentina{
     width: 300px;
