@@ -10,6 +10,7 @@ nav {
 .menu {
   list-style: none;
   margin: 10px;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.911); }
 
 .menu li {
@@ -21,11 +22,12 @@ nav {
 
 .menu li a {
   text-decoration: none;
+  margin: 5px;
   padding: 5px;
   background-color: white; }
 
 .menu li:hover {
-  background-color: tomato; }
+  background-color: brown; }
 
 .menu li a:hover {
   background-color: rgba(0, 248, 248, 0.952); }
@@ -59,12 +61,16 @@ img:hover {
 .fichaTecnica {
   width: 850px;
   height: 100px;
+  margin: 5px;
+  padding: 5px;
   font-family: 'Archivo Black', sans-serif;
   font-family: 'Cabin Condensed', sans-serif;
   background-color: yellow;
   color: black; }
 
 .premios {
+  margin: 15px;
+  padding: 15px;
   display: flex; }
 
 .intro {
@@ -92,6 +98,8 @@ h3 {
 .argentina {
   width: 300px;
   height: 400px;
+  margin: 10px;
+  padding: 10px;
   transition: height 2s; }
 
 .argentina:hover {
@@ -99,7 +107,8 @@ h3 {
   transform: scale(2, 1); }
 
 .musica {
-  margin: 40px; }
+  margin: 40px;
+  padding: 10px; }
 
 .entretenimiento {
   margin: 20px;
@@ -107,6 +116,8 @@ h3 {
   display: flex; }
 
 .redes {
+  margin: 5px;
+  padding: 5px;
   display: flex;
   flex-direction: row-reverse; }
 
@@ -125,12 +136,7 @@ footer h4 {
 footer a:hover {
   font-weight: bold;
   background-color: blue;
-  color: white;
-  text-decoration: brown; }
-
-footer a:link {
-  text-decoration: none;
-  color: red; }
+  color: white; }
 
 footer .final:active {
   background-color: #e3fc00;
@@ -138,7 +144,8 @@ footer .final:active {
 
 @media screen and (min-width: 768px) {
   body {
-    background-color: brown; } }
+    background-color: brown;
+    background-image: url("../img/fondo10.png"); } }
 
 @media screen and (min-width: 1024px) {
   body {

@@ -12,13 +12,9 @@ footer{
         font-weight:bold; 
         background-color:blue; 
         color:white; 
-        text-decoration:brown; 
-    }
-    a:link{ 
-        text-decoration:none; 
-        color:red; 
     }
     .final:active{ 
-        background-color:$amarillo; color: $negro ; 
+        background-color:$amarillo; 
+        color: $negro ; 
     }
 }
