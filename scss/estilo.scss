@@ -29,7 +29,7 @@ nav{
     background-color: white;
 }
 .menu li:hover{
-    background-color: brown;
+    background-color: burlywood;
 }
 .menu li a:hover{
     background-color: $celeste;
@@ -136,7 +136,7 @@ h3{
 @media screen and (min-width: 768px){
     body {
         background-color: brown;
-        background-image: url("../img/fondo10.png");
+        background-image: url("../img/ARGENTINA.png");
         }
 }
 @media screen and (min-width: 1024px){
@@ -144,13 +144,6 @@ h3{
         background-color: $celeste;
         background-image: url("../img/fondo6.jpg");
         }
-}
-@media screen and (max-width:768px) {.conteiner{
-    width: 100%;
-    grid-template-columns:1fr;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas:"header""main""aside""footer";
-    }
 }
 @media screen and (max-width:420px) {.header{
     flex-direction: column-reverse;
