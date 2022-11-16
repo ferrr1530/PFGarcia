@@ -50,7 +50,6 @@ body{
 }
 img{
     margin: 5px 10px 10px 40px;  
-    
  }
 img:hover{
     transform: skew(20deg,10deg);
@@ -109,14 +108,23 @@ h3{
     height: 200px;
     transform: scale(2,1);
 }
-.musica{
-    margin: 40px;
-    padding: 10px;
-}
 .entretenimiento{
     margin: 20px;
     padding: 20px;
     display: flex;
+}
+.campeones{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.musica{
+    margin: 40px;
+    padding: 20px;
+}
+.video{
+    margin: 5px;
+    padding: 5px;
 }
 .redes{
     margin: 5px;
